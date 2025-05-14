@@ -1,3 +1,2 @@
 # Custom Light Switch
-
-Пользовательская карточка выключателя для UI Lovelace Minimalist.
+UI Lovelace Minimalist custom card for Home Assistant
