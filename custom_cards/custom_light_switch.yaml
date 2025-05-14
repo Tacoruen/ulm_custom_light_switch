@@ -1,0 +1,20 @@
+custom_light_switch:
+  variables:
+    name: "По умолчанию"
+    entity: "switch.none"
+
+  card:
+    type: custom:button-card
+    name: "[[[ return variables.name ]]]"
+    entity: "[[[ return variables.entity ]]]"
+    icon: mdi:gesture-tap-button
+    tap_action:
+      action: toggle
+    styles:
+      card:
+        - background-color: rgba(30, 30, 30, 0.8)
+        - color: white
+        - font-size: 18px
+        - border-radius: 10px
+        - padding: 12px
+        - height: 100px
